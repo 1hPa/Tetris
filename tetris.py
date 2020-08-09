@@ -152,7 +152,7 @@ class Piece(object):
 
 
 def create_grid(locked_positions={}):
-    pass
+    grid = [[(0,0,0) for x in range(10)] for x in range(20)]
 
 
 def convert_shape_format(shape):
