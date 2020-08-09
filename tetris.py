@@ -143,6 +143,13 @@ class Piece(object):
     rows = 20 #y-axis
     columun = 10 #x-axis
 
+    def __init__(self, columun, row, shape):
+        self.x = column
+        self.y = row
+        self.shape = shape
+        self.color = shape_colors[shapes.index(shape)]
+        self.rotation = 0 #number from 0-3
+
 
 def create_grid(locked_positions={}):
     pass
