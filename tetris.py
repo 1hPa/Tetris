@@ -200,6 +200,9 @@ def draw_window(surface):
     font = pygame.font.SysFont("comicsans", 60)
     label = font.render("TETRIS", True, (255,255,255))
 
+    #Place the letter "TETRIS"
+    surface.blit(label, (top_left_x + play_width / 2 - (label.get_width() / 2), 30))
+
 def main():
     pass
 
