@@ -203,6 +203,11 @@ def draw_window(surface):
     #Place the letter "TETRIS"
     surface.blit(label, (top_left_x + play_width / 2 - (label.get_width() / 2), 30))
 
+    #Drawing a quadrangle
+    for i in range(len(grid)):
+        for j in range(len(grid[i])):
+            pygame.draw.rect(surface, grid[i][j], (top_left_x + j* 30, top_left_y + i * 30, 30, 30), 0)
+
 def main():
     pass
 
