@@ -196,7 +196,7 @@ def draw_next_shape(shape, surface):
 
 
 def draw_window(surface):
-    pass
+    surface.fill((0,0,0)) #black
 
 
 def main():
