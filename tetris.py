@@ -172,9 +172,11 @@ def valid_space(shape, grid):
 def check_lost(positions):
     pass
 
-
+# Getting a ramdom shape
 def get_shape():
-    pass
+    global shapes, shape_color
+
+    return Piece(5, 0, ramdom.choice(shapes))
 
 
 def draw_text_middle(text, size, color, surface):
