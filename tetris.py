@@ -197,7 +197,7 @@ def draw_next_shape(shape, surface):
 
 def draw_window(surface):
     surface.fill((0,0,0)) #black
-
+    font = pygame.font.SysFont(\'comicsans\', 60)
 
 def main():
     pass
