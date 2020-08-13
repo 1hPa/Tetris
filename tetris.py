@@ -208,6 +208,9 @@ def draw_window(surface):
         for j in range(len(grid[i])):
             pygame.draw.rect(surface, grid[i][j], (top_left_x + j* 30, top_left_y + i * 30, 30, 30), 0)
 
+    # Draw grid and border
+    draw_grid(surface, 20, 10)
+
 def main():
     pass
 
