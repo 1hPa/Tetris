@@ -214,7 +214,7 @@ def draw_window(surface):
     pygame.display.update()
 
 def main():
-    pass
+    global grid
 
 
 def main_menu():
